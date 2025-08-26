@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'KoinPaymentCheckout.xcframework'
   s.requires_arc = true
-  # s.static_framework = true
+  s.static_framework = true
 end
