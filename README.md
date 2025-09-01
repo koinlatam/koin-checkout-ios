@@ -1,24 +1,24 @@
 # KoinPaymentCheckout iOS
 
-SDK oficial da Koin para integração de pagamentos no seu app iOS. Suporte completo a Pix, Cartão de Crédito e BNPL.
+Official Koin SDK for payment integration in your iOS app. Full support for Pix, Credit Card and BNPL.
 
-Compatível com **SwiftUI** e **UIKit**.
+Compatible with **SwiftUI** and **UIKit**.
 
-## 🚧 Status Beta
+## 🚧 Beta Status
 
-Este framework está em fase beta. As versões são disponibilizadas através do GitHub Pages como arquivos ZIP para instalação manual.
+This framework is in beta phase. Versions are distributed through GitHub Pages as ZIP files for manual installation.
 
-## 📦 Instalação
+## 📦 Installation
 
 ### CocoaPods
 
-Adicione ao seu `Podfile`:
+Add to your `Podfile`:
 
 ```ruby
 pod 'KoinPaymentCheckout', :podspec => 'https://koinlatam.github.io/koin-checkout-ios/podspecs/KoinPaymentCheckout-1.0.0-build.2.1.podspec'
 ```
 
-Em seguida, execute no terminal:
+Then run in terminal:
 
 ```bash
 pod install
@@ -26,16 +26,16 @@ pod install
 
 ### Manual
 
-1. Baixe a versão mais recente: [KoinPaymentCheckout-1.0.0-build.2.1.zip](https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.2.1/KoinPaymentCheckout.zip)
-2. Extraia o arquivo ZIP
-3. Arraste o `KoinPaymentCheckout.xcframework` para o seu projeto no Xcode
-4. Em **Target Settings > General > Frameworks, Libraries, and Embedded Content**, certifique-se que está marcado como "Embed & Sign"
+1. Download the latest version: [KoinPaymentCheckout-1.0.0-build.2.1.zip](https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.2.1/KoinPaymentCheckout.zip)
+2. Extract the ZIP file
+3. Drag `KoinPaymentCheckout.xcframework` into your Xcode project
+4. In **Target Settings > General > Frameworks, Libraries, and Embedded Content**, make sure it's marked as "Embed & Sign"
 
-## 🚀 Configuração
+## 🚀 Setup
 
-### 1. Inicialização
+### 1. Initialization
 
-Inicialize o SDK no `AppDelegate` ou no `@main` da sua app SwiftUI:
+Initialize the SDK in your `AppDelegate` or SwiftUI app's `@main`:
 
 ```swift
 import KoinPaymentCheckout
@@ -43,7 +43,7 @@ import KoinPaymentCheckout
 PaymentCheckout.initialize(key: "YOUR_PUBLIC_KEY")
 ```
 
-## 📱 Uso
+## 📱 Usage
 
 ### SwiftUI
 
@@ -56,7 +56,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Button("Iniciar Pagamento") {
+            Button("Start Payment") {
                 let input = CheckoutInputBuilder(
                     amount: 250.00,
                     referenceId: "checkout123"
@@ -72,11 +72,11 @@ struct ContentView: View {
             PaymentCheckout.makeCheckoutView(input: input) { result in
                 switch result {
                 case .success(let data):
-                    print("Pagamento realizado: \(data)")
+                    print("Payment completed: \(data)")
                 case .fail(let error):
-                    print("Erro no pagamento: \(error?.localizedDescription ?? "erro desconhecido")")
+                    print("Payment error: \(error?.localizedDescription ?? "unknown error")")
                 case .canceled:
-                    print("Pagamento cancelado")
+                    print("Payment canceled")
                 }
                 checkoutInput = nil
             }
@@ -104,46 +104,46 @@ class ViewController: UIViewController {
         PaymentCheckout.presentCheckout(from: self, input: input) { result in
             switch result {
             case .success(let data):
-                print("Pagamento realizado: \(data)")
+                print("Payment completed: \(data)")
             case .fail(let error):
-                print("Erro no pagamento: \(error?.localizedDescription ?? "erro desconhecido")")
+                print("Payment error: \(error?.localizedDescription ?? "unknown error")")
             case .canceled:
-                print("Pagamento cancelado")
+                print("Payment canceled")
             }
         }
     }
 }
 ```
 
-## 🔧 Requisitos
+## 🔧 Requirements
 
 - iOS 15.0+
-- Swift 5.10+ ou 6.0+
+- Swift 5.10+ or 6.0+
 - Xcode 14.0+
 
-## 📋 Tipos de Pagamento Suportados
+## 📋 Supported Payment Types
 
 - **PIX** (`.pix`)
-- **Cartão de Crédito** (`.card`)
+- **Credit Card** (`.card`)
 - **BNPL** (Buy Now, Pay Later)
 
-## 🔐 Configuração da API Key
+## 🔐 API Key Configuration
 
-Para projetos de exemplo, recomendamos usar um arquivo de configuração `.xcconfig`:
+For sample projects, we recommend using an `.xcconfig` configuration file:
 
-1. Crie um arquivo `Config.xcconfig`
-2. Adicione sua chave: `API_KEY = your_key_here`
-3. Configure no Xcode em **Project Settings > Configurations**
+1. Create a `Config.xcconfig` file
+2. Add your key: `API_KEY = your_key_here`
+3. Configure in Xcode under **Project Settings > Configurations**
 
-## 📚 Versões Disponíveis
+## 📚 Available Versions
 
 - **1.0.0-beta.1** - [Download](https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-beta.1/KoinPaymentCheckout-1.0.0-beta.1.zip)
 - **1.0.0-build.2.1** - [Download](https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.2.1/KoinPaymentCheckout-1.0.0-build.2.1.zip)
 
-## 🤝 Suporte
+## 🤝 Support
 
-Para dúvidas ou suporte técnico, entre em contato com a equipe de desenvolvimento da Koin.
+For questions or technical support, contact the Koin development team.
 
-## 📄 Licença
+## 📄 License
 
-Copyright (c) 2025 Koin. Todos os direitos reservados.
+Copyright (c) 2025 Koin. All rights reserved.
