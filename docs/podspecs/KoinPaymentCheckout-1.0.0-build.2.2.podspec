@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors     = 'Koin'
   s.platform       = :ios, '15.0'
   s.swift_versions = ['5.10', '6.0']
-  s.source = { :http => 'https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.2.2/KoinPaymentCheckout.zip', :sha256 => '145687dea6774fa0774751adb3c744c95a4d717f31f79d9567e7089257228458' }
+  s.source = { :http => 'https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.2.2/KoinPaymentCheckout.zip', :sha256 => 'd037174b74c76b84e708eeb94b762b51a7d191707b0084d771bbef7a50773eee' }
   s.vendored_frameworks = 'KoinPaymentCheckout.xcframework'
   s.requires_arc        = true
 end
