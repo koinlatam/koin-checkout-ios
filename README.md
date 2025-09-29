@@ -15,7 +15,7 @@ This framework is in beta phase. Versions are distributed through GitHub Pages a
 Add to your `Podfile`:
 
 ```ruby
-pod 'KoinPaymentCheckout', :podspec => 'https://koinlatam.github.io/koin-checkout-ios/podspecs/KoinPaymentCheckout-1.0.0-build.2.1.podspec'
+pod 'KoinPaymentCheckout', :podspec => 'https://koinlatam.github.io/koin-checkout-ios/podspecs/KoinPaymentCheckout-1.0.0-build.7.podspec'
 ```
 
 Then run in terminal:
@@ -137,7 +137,7 @@ For sample projects, we recommend using an `.xcconfig` configuration file:
 
 ## 📚 Available Versions
 
-- **1.0.0-beta.7** - [Download](https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-beta.7/KoinPaymentCheckout-1.0.0-beta.7.zip)
+- **1.0.0-build.7** - [Download](https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.7/KoinPaymentCheckout-1.0.0-build.7.zip)
 
 ## 🤝 Support
 
