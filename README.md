@@ -26,7 +26,7 @@ pod install
 
 ### Manual
 
-1. Download the latest version: [KoinPaymentCheckout-1.0.0-build.2.1.zip](https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.2.1/KoinPaymentCheckout.zip)
+1. Download the latest version: [KoinPaymentCheckout-1.0.0-build.7.zip](https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.7/KoinPaymentCheckout.zip)
 2. Extract the ZIP file
 3. Drag `KoinPaymentCheckout.xcframework` into your Xcode project
 4. In **Target Settings > General > Frameworks, Libraries, and Embedded Content**, make sure it's marked as "Embed & Sign"
@@ -137,8 +137,7 @@ For sample projects, we recommend using an `.xcconfig` configuration file:
 
 ## 📚 Available Versions
 
-- **1.0.0-beta.1** - [Download](https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-beta.1/KoinPaymentCheckout-1.0.0-beta.1.zip)
-- **1.0.0-build.2.1** - [Download](https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.2.1/KoinPaymentCheckout-1.0.0-build.2.1.zip)
+- **1.0.0-beta.7** - [Download](https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-beta.7/KoinPaymentCheckout-1.0.0-beta.7.zip)
 
 ## 🤝 Support
 
