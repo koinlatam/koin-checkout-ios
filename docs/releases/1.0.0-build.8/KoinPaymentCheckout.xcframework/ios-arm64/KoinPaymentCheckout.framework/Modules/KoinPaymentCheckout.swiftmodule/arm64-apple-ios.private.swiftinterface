@@ -1,0 +1,1130 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KoinPaymentCheckout
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import PayPal
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+public struct ItemTypeGenericLegacy : KoinPaymentCheckout.AnyItemProtocol {
+  public let name: Swift.String
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public let reference: Swift.String
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let discount: Swift.Double
+  public let category: Swift.String
+  public init(name: Swift.String, reference: Swift.String, price: KoinPaymentCheckout.Amount, quantity: Swift.Int, discount: Swift.Double, category: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ItemTypeCellphoneInsurance : KoinPaymentCheckout.AnyItemProtocol {
+  public let id: Swift.String
+  public let name: Swift.String
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public let client: KoinPaymentCheckout.Client
+  public let device: KoinPaymentCheckout.Device
+  public let insurance: KoinPaymentCheckout.Insurance
+  public let category: KoinPaymentCheckout.Category
+  public let discountAmount: KoinPaymentCheckout.Amount?
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let sellerId: Swift.String?
+  public let serviceDate: Swift.String?
+  public init(id: Swift.String, name: Swift.String, client: KoinPaymentCheckout.Client, device: KoinPaymentCheckout.Device, insurance: KoinPaymentCheckout.Insurance, category: KoinPaymentCheckout.Category, discountAmount: KoinPaymentCheckout.Amount?, price: KoinPaymentCheckout.Amount, quantity: Swift.Int, sellerId: Swift.String?, serviceDate: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Client : Swift.Codable {
+  public let id: Swift.String?
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let fullName: Swift.String?
+  public let document: KoinPaymentCheckout.Document
+  public let gender: KoinPaymentCheckout.Gender?
+  public let address: KoinPaymentCheckout.Address?
+  public let birthDate: Swift.String?
+  public let email: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public init(id: Swift.String?, firstName: Swift.String?, lastName: Swift.String?, fullName: Swift.String?, document: KoinPaymentCheckout.Document, gender: KoinPaymentCheckout.Gender?, address: KoinPaymentCheckout.Address?, birthDate: Swift.String?, email: Swift.String?, phone: KoinPaymentCheckout.Phone?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Device : Swift.Codable {
+  public let brand: Swift.String
+  public let imei: Swift.String?
+  public let model: Swift.String
+  public init(brand: Swift.String, imei: Swift.String?, model: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Insurance : Swift.Codable {
+  public let expirationDate: Swift.String?
+  public let installment: Swift.Int?
+  public let subscriptionDate: Swift.String?
+  public let type: Swift.String?
+  public init(expirationDate: Swift.String?, installment: Swift.Int?, subscriptionDate: Swift.String?, type: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ItemTypeFlight : KoinPaymentCheckout.AnyItemProtocol {
+  public let id: Swift.String
+  public let name: Swift.String
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public let discountAmount: KoinPaymentCheckout.Amount?
+  public let itineraryType: KoinPaymentCheckout.ItineraryType
+  public let passengers: [KoinPaymentCheckout.Passenger]
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let routeType: KoinPaymentCheckout.RouteType
+  public let routes: [KoinPaymentCheckout.FlightRoute]
+  public let sellerId: Swift.String?
+  public init(id: Swift.String, name: Swift.String, discountAmount: KoinPaymentCheckout.Amount?, itineraryType: KoinPaymentCheckout.ItineraryType, passengers: [KoinPaymentCheckout.Passenger], price: KoinPaymentCheckout.Amount, quantity: Swift.Int, routeType: KoinPaymentCheckout.RouteType, routes: [KoinPaymentCheckout.FlightRoute], sellerId: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FlightRoute : Swift.Codable {
+  public let position: Swift.Int
+  public let provider: Swift.String?
+  public let segments: [KoinPaymentCheckout.FlightSegment]
+  public init(position: Swift.Int, provider: Swift.String?, segments: [KoinPaymentCheckout.FlightSegment])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FlightSegment : Swift.Codable {
+  public let airlineCode: Swift.String
+  public let departure: KoinPaymentCheckout.AirportInfo
+  public let arrival: KoinPaymentCheckout.AirportInfo
+  public let flightClass: Swift.String?
+  public let flightNumber: Swift.Int?
+  public let position: Swift.Int?
+  public init(airlineCode: Swift.String, departure: KoinPaymentCheckout.AirportInfo, arrival: KoinPaymentCheckout.AirportInfo, flightClass: Swift.String?, flightNumber: Swift.Int?, position: Swift.Int?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AirportInfo : Swift.Codable {
+  public let airportCode: Swift.String
+  public let date: Swift.String
+  public let timezone: Swift.Int?
+  public init(airportCode: Swift.String, date: Swift.String, timezone: Swift.Int?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Store : Swift.Codable {
+  public let code: Swift.String?
+  public let category: Swift.String?
+  public init(code: Swift.String? = nil, category: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Transaction : Swift.Codable {
+  public let referenceId: Swift.String?
+  public let businessId: Swift.String?
+  public var account: Swift.String?
+  public var amount: KoinPaymentCheckout.Amount?
+  public init(referenceId: Swift.String? = nil, businessId: Swift.String? = nil, account: Swift.String? = nil, amount: KoinPaymentCheckout.Amount? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Amount : Swift.Codable {
+  public var currencyCode: Swift.String?
+  public let value: Swift.Double?
+  public let breakdown: KoinPaymentCheckout.Breakdown?
+  public init(currencyCode: Swift.String? = nil, value: Swift.Double? = nil, breakdown: KoinPaymentCheckout.Breakdown? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Breakdown : Swift.Codable {
+  public let items: KoinPaymentCheckout.AmountDetail?
+  public let taxes: KoinPaymentCheckout.AmountDetail?
+  public let shipping: KoinPaymentCheckout.AmountDetail?
+  public let fee: KoinPaymentCheckout.AmountDetail?
+  public init(items: KoinPaymentCheckout.AmountDetail? = nil, taxes: KoinPaymentCheckout.AmountDetail? = nil, shipping: KoinPaymentCheckout.AmountDetail? = nil, fee: KoinPaymentCheckout.AmountDetail? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AmountDetail : Swift.Codable {
+  public let currencyCode: Swift.String?
+  public let value: Swift.Double?
+  public init(currencyCode: Swift.String? = nil, value: Swift.Double? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Person : Swift.Codable {
+  public let id: Swift.String?
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let fullName: Swift.String?
+  public let document: KoinPaymentCheckout.Document?
+  public let gender: Swift.String?
+  public let address: KoinPaymentCheckout.Address?
+  public let birthDate: Swift.String?
+  public let email: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public init(id: Swift.String? = nil, firstName: Swift.String? = nil, lastName: Swift.String? = nil, fullName: Swift.String? = nil, document: KoinPaymentCheckout.Document? = nil, gender: Swift.String? = nil, address: KoinPaymentCheckout.Address? = nil, birthDate: Swift.String? = nil, email: Swift.String? = nil, phone: KoinPaymentCheckout.Phone? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Payer : Swift.Codable {
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let fullName: Swift.String?
+  public let document: KoinPaymentCheckout.Document?
+  public let gender: Swift.String?
+  public let birthDate: Swift.String?
+  public let email: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public let address: KoinPaymentCheckout.Address?
+  public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, fullName: Swift.String? = nil, document: KoinPaymentCheckout.Document? = nil, gender: Swift.String? = nil, birthDate: Swift.String? = nil, email: Swift.String? = nil, phone: KoinPaymentCheckout.Phone? = nil, address: KoinPaymentCheckout.Address? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Buyer : Swift.Codable {
+  public let id: Swift.String?
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let fullName: Swift.String?
+  public let email: Swift.String?
+  public let document: KoinPaymentCheckout.Document?
+  public let gender: Swift.String?
+  public let address: KoinPaymentCheckout.Address?
+  public let birthDate: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public let profile: KoinPaymentCheckout.BuyerProfile?
+  public init(id: Swift.String? = nil, firstName: Swift.String? = nil, lastName: Swift.String? = nil, fullName: Swift.String? = nil, email: Swift.String? = nil, document: KoinPaymentCheckout.Document? = nil, gender: Swift.String? = nil, address: KoinPaymentCheckout.Address? = nil, birthDate: Swift.String? = nil, phone: KoinPaymentCheckout.Phone? = nil, profile: KoinPaymentCheckout.BuyerProfile? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BuyerProfile : Swift.Codable {
+  public let category: Swift.String?
+  public init(category: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Document : Swift.Codable {
+  public let nationality: Swift.String?
+  public let number: Swift.String?
+  public let type: Swift.String?
+  public init(nationality: Swift.String? = nil, number: Swift.String? = nil, type: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Phone : Swift.Codable {
+  public let countryCode: Swift.String?
+  public let area: Swift.String?
+  public let number: Swift.String?
+  public let type: Swift.String?
+  public init(countryCode: Swift.String? = nil, area: Swift.String? = nil, number: Swift.String? = nil, type: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Address : Swift.Codable {
+  public let city: Swift.String?
+  public let complement: Swift.String?
+  public let countryCode: Swift.String?
+  public let neighborhood: Swift.String?
+  public let number: Swift.String?
+  public let state: Swift.String?
+  public let street: Swift.String?
+  public let zipCode: Swift.String?
+  public let fullAddress: Swift.String?
+  public init(city: Swift.String? = nil, complement: Swift.String? = nil, countryCode: Swift.String? = nil, neighborhood: Swift.String? = nil, number: Swift.String? = nil, state: Swift.String? = nil, street: Swift.String? = nil, zipCode: Swift.String? = nil, fullAddress: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Shipping : Swift.Codable {
+  public let address: KoinPaymentCheckout.Address?
+  public let delivery: KoinPaymentCheckout.Delivery?
+  public let price: KoinPaymentCheckout.AmountDetail?
+  public init(address: KoinPaymentCheckout.Address? = nil, delivery: KoinPaymentCheckout.Delivery? = nil, price: KoinPaymentCheckout.AmountDetail? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Delivery : Swift.Codable {
+  public let by: Swift.String?
+  public let date: Swift.String?
+  public let type: Swift.String?
+  public init(by: Swift.String? = nil, date: Swift.String? = nil, type: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PaymentMethod : Swift.Codable {
+  public let code: Swift.String?
+  public let expirationDate: Swift.String?
+  public let secureToken: Swift.String?
+  public let installments: Swift.Int?
+  public init(code: Swift.String? = nil, expirationDate: Swift.String? = nil, secureToken: Swift.String? = nil, installments: Swift.Int? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct RedirectUrl : Swift.Codable {
+  public let successUrl: Swift.String?
+  public let cancelUrl: Swift.String?
+  public let failedUrl: Swift.String?
+  public init(successUrl: Swift.String? = nil, cancelUrl: Swift.String? = nil, failedUrl: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Passenger : Swift.Codable {
+  public let id: Swift.String?
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let document: KoinPaymentCheckout.Document?
+  public let gender: KoinPaymentCheckout.Gender?
+  public let address: KoinPaymentCheckout.Address?
+  public let birthDate: Swift.String?
+  public let email: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public init(id: Swift.String? = nil, firstName: Swift.String? = nil, lastName: Swift.String? = nil, document: KoinPaymentCheckout.Document? = nil, gender: KoinPaymentCheckout.Gender? = nil, address: KoinPaymentCheckout.Address? = nil, birthDate: Swift.String? = nil, email: Swift.String? = nil, phone: KoinPaymentCheckout.Phone? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum Gender : Swift.String, Swift.Codable {
+  case female
+  case male
+  case other
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ItineraryType : Swift.String, Swift.Codable {
+  case multiDestination
+  case oneWay
+  case roundTrip
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum RouteType : Swift.String, Swift.Codable {
+  case domestic
+  case international
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct ItemTypeLodging : KoinPaymentCheckout.AnyItemProtocol {
+  public let address: KoinPaymentCheckout.Address
+  public let checkinDate: Swift.String
+  public let checkoutDate: Swift.String
+  public let guests: [KoinPaymentCheckout.Guest]?
+  public let lodger: KoinPaymentCheckout.Lodger?
+  public let nights: Swift.Int
+  public let refundable: Swift.String?
+  public let category: KoinPaymentCheckout.Category
+  public let discountAmount: KoinPaymentCheckout.Amount?
+  public let id: Swift.String
+  public let name: Swift.String
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let sellerId: Swift.String?
+  public let serviceDate: Swift.String?
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public init(address: KoinPaymentCheckout.Address, checkinDate: Swift.String, checkoutDate: Swift.String, guests: [KoinPaymentCheckout.Guest]?, lodger: KoinPaymentCheckout.Lodger?, nights: Swift.Int, refundable: Swift.String?, category: KoinPaymentCheckout.Category, discountAmount: KoinPaymentCheckout.Amount?, id: Swift.String, name: Swift.String, price: KoinPaymentCheckout.Amount, quantity: Swift.Int, sellerId: Swift.String?, serviceDate: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Guest : Swift.Codable {
+  public let id: Swift.String?
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let fullName: Swift.String?
+  public let document: KoinPaymentCheckout.Document?
+  public let gender: KoinPaymentCheckout.Gender?
+  public let address: KoinPaymentCheckout.Address?
+  public let birthDate: Swift.String?
+  public let email: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public init(id: Swift.String?, firstName: Swift.String?, lastName: Swift.String?, fullName: Swift.String?, document: KoinPaymentCheckout.Document?, gender: KoinPaymentCheckout.Gender?, address: KoinPaymentCheckout.Address?, birthDate: Swift.String?, email: Swift.String?, phone: KoinPaymentCheckout.Phone?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Lodger : Swift.Codable {
+  public let id: Swift.String?
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let fullName: Swift.String?
+  public let document: KoinPaymentCheckout.Document?
+  public let gender: KoinPaymentCheckout.Gender?
+  public let address: KoinPaymentCheckout.Address?
+  public let birthDate: Swift.String?
+  public let email: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public init(id: Swift.String?, firstName: Swift.String?, lastName: Swift.String?, fullName: Swift.String?, document: KoinPaymentCheckout.Document?, gender: KoinPaymentCheckout.Gender?, address: KoinPaymentCheckout.Address?, birthDate: Swift.String?, email: Swift.String?, phone: KoinPaymentCheckout.Phone?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum Payment : Swift.Encodable {
+  case bnpl(KoinPaymentCheckout.PaymentBnpl)
+  case card(KoinPaymentCheckout.PaymentCardCheckout)
+  case pix(KoinPaymentCheckout.PaymentPixCheckout)
+  case paypal(KoinPaymentCheckout.PaymentPayPalOrder)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var referenceId: Swift.String {
+    get
+  }
+}
+public struct PaymentPayPalOrder : Swift.Encodable {
+  public let countryCode: Swift.String?
+  public var transaction: KoinPaymentCheckout.PayPalOrderTransaction?
+  public let store: KoinPaymentCheckout.Store?
+  public let paymentMethod: KoinPaymentCheckout.PaymentMethod?
+  public init(countryCode: Swift.String? = nil, transaction: KoinPaymentCheckout.PayPalOrderTransaction? = nil, store: KoinPaymentCheckout.Store? = nil, paymentMethod: KoinPaymentCheckout.PaymentMethod? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct PayPalOrderTransaction : Swift.Codable {
+  public let referenceId: Swift.String?
+  public var account: Swift.String?
+  public var amount: KoinPaymentCheckout.Amount?
+  public init(referenceId: Swift.String? = nil, account: Swift.String? = nil, amount: KoinPaymentCheckout.Amount? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum PayPalWebResult {
+  case approved(orderID: Swift.String)
+  case cancelled
+  case failed(message: Swift.String)
+}
+public struct PaymentPayPalCaptureResponse : Swift.Decodable, Swift.Sendable {
+  public let id: Swift.String
+  public let intent: Swift.String
+  public let status: Swift.String
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CheckoutInput : Swift.Identifiable {
+  public let id: Foundation.UUID
+  public init(id: Foundation.UUID = UUID(), payment: KoinPaymentCheckout.Payment)
+  public typealias ID = Foundation.UUID
+}
+public class CheckoutInputBuilder {
+  public init(payment: KoinPaymentCheckout.Payment)
+  public func withId(_ id: Foundation.UUID) -> KoinPaymentCheckout.CheckoutInputBuilder
+  public func build() -> KoinPaymentCheckout.CheckoutInput
+  @objc deinit
+}
+public struct ItemTypeTravelInsurance : KoinPaymentCheckout.AnyItemProtocol {
+  public let id: Swift.String
+  public let name: Swift.String
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public let provider: KoinPaymentCheckout.InsuranceProvider
+  public let passengers: [KoinPaymentCheckout.InsurancePassenger]
+  public let service: KoinPaymentCheckout.InsuranceService
+  public let category: KoinPaymentCheckout.Category
+  public let discountAmount: KoinPaymentCheckout.Amount?
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let sellerId: Swift.String?
+  public let serviceDate: Swift.String?
+  public init(id: Swift.String, name: Swift.String, provider: KoinPaymentCheckout.InsuranceProvider, passengers: [KoinPaymentCheckout.InsurancePassenger], service: KoinPaymentCheckout.InsuranceService, category: KoinPaymentCheckout.Category, discountAmount: KoinPaymentCheckout.Amount?, price: KoinPaymentCheckout.Amount, quantity: Swift.Int, sellerId: Swift.String?, serviceDate: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct InsuranceProvider : Swift.Codable {
+  public let code: Swift.String
+  public let name: Swift.String
+  public let modality: Swift.String?
+  public let region: KoinPaymentCheckout.InsuranceRegion
+  public init(code: Swift.String, name: Swift.String, modality: Swift.String?, region: KoinPaymentCheckout.InsuranceRegion)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct InsuranceService : Swift.Codable {
+  public let destination: Swift.String?
+  public let endDate: Swift.String
+  public let id: Swift.String?
+  public let name: Swift.String?
+  public let numberOfPassengers: Swift.Int
+  public let origin: Swift.String?
+  public let startDate: Swift.String
+  public let subType: Swift.String?
+  public init(destination: Swift.String?, endDate: Swift.String, id: Swift.String?, name: Swift.String?, numberOfPassengers: Swift.Int, origin: Swift.String?, startDate: Swift.String, subType: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct InsurancePassenger : Swift.Codable {
+  public let id: Swift.String?
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let fullName: Swift.String?
+  public let document: KoinPaymentCheckout.Document
+  public let gender: KoinPaymentCheckout.Gender?
+  public let address: KoinPaymentCheckout.Address?
+  public let birthDate: Swift.String?
+  public let email: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public init(id: Swift.String?, firstName: Swift.String?, lastName: Swift.String?, fullName: Swift.String?, document: KoinPaymentCheckout.Document, gender: KoinPaymentCheckout.Gender?, address: KoinPaymentCheckout.Address?, birthDate: Swift.String?, email: Swift.String?, phone: KoinPaymentCheckout.Phone?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum InsuranceRegion : Swift.String, Swift.Codable {
+  case national
+  case europe
+  case unitedStates
+  case latinAmerica
+  case multiDestination
+  case other
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum LauncherViewPresentationStyle {
+  case fullscreen
+  case bottomSheet
+  public static func == (a: KoinPaymentCheckout.LauncherViewPresentationStyle, b: KoinPaymentCheckout.LauncherViewPresentationStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct PaymentPixCheckout : Swift.Codable {
+  public let store: KoinPaymentCheckout.Store?
+  public var transaction: KoinPaymentCheckout.Transaction?
+  public let countryCode: Swift.String?
+  public let paymentMethod: KoinPaymentCheckout.PixPaymentMethod?
+  public let payer: KoinPaymentCheckout.PixPayer?
+  public let descriptor: Swift.String?
+  public let notificationUrl: [Swift.String]?
+  public let redirectUrl: KoinPaymentCheckout.RedirectUrl?
+  public let mobile: Swift.Bool?
+  public init(store: KoinPaymentCheckout.Store? = nil, transaction: KoinPaymentCheckout.Transaction? = nil, countryCode: Swift.String? = nil, paymentMethod: KoinPaymentCheckout.PixPaymentMethod? = nil, payer: KoinPaymentCheckout.PixPayer? = nil, descriptor: Swift.String? = nil, notificationUrl: [Swift.String]? = nil, redirectUrl: KoinPaymentCheckout.RedirectUrl? = nil, mobile: Swift.Bool? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PixPaymentMethod : Swift.Codable {
+  public let code: Swift.String?
+  public let expirationDate: Swift.String?
+  public let paymentKey: Swift.String?
+  public init(code: Swift.String? = nil, expirationDate: Swift.String? = nil, paymentKey: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PixPayer : Swift.Codable {
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let fullName: Swift.String?
+  public let document: KoinPaymentCheckout.Document?
+  public let email: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, fullName: Swift.String? = nil, document: KoinPaymentCheckout.Document? = nil, email: Swift.String? = nil, phone: KoinPaymentCheckout.Phone? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ItemTypeCarPenaltyFee : KoinPaymentCheckout.AnyItemProtocol {
+  public let id: Swift.String
+  public let name: Swift.String
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public let car: KoinPaymentCheckout.CarDetails
+  public let category: KoinPaymentCheckout.Category
+  public let discountAmount: KoinPaymentCheckout.Amount?
+  public let fines: [KoinPaymentCheckout.Fine]
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let sellerId: Swift.String?
+  public let serviceDate: Swift.String?
+  public init(id: Swift.String, name: Swift.String, car: KoinPaymentCheckout.CarDetails, category: KoinPaymentCheckout.Category, discountAmount: KoinPaymentCheckout.Amount?, fines: [KoinPaymentCheckout.Fine], price: KoinPaymentCheckout.Amount, quantity: Swift.Int, sellerId: Swift.String?, serviceDate: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CarDetails : Swift.Codable {
+  public let brand: Swift.String
+  public let identifier: KoinPaymentCheckout.CarIdentifier?
+  public let licensePlate: Swift.String?
+  public let model: Swift.String
+  public let owner: KoinPaymentCheckout.Owner
+  public let year: Swift.String?
+  public init(brand: Swift.String, identifier: KoinPaymentCheckout.CarIdentifier?, licensePlate: Swift.String?, model: Swift.String, owner: KoinPaymentCheckout.Owner, year: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CarIdentifier : Swift.Codable {
+  public let key: Swift.String
+  public let value: Swift.String
+  public init(key: Swift.String, value: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Owner : Swift.Codable {
+  public let id: Swift.String?
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let fullName: Swift.String?
+  public let document: KoinPaymentCheckout.Document
+  public let gender: KoinPaymentCheckout.Gender?
+  public let address: KoinPaymentCheckout.Address?
+  public let birthDate: Swift.String?
+  public let email: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public init(id: Swift.String?, firstName: Swift.String?, lastName: Swift.String?, fullName: Swift.String?, document: KoinPaymentCheckout.Document, gender: KoinPaymentCheckout.Gender?, address: KoinPaymentCheckout.Address?, birthDate: Swift.String?, email: Swift.String?, phone: KoinPaymentCheckout.Phone?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Fine : Swift.Codable {
+  public let carOwningTaxType: Swift.String?
+  public let carOwningTaxAmount: KoinPaymentCheckout.Amount?
+  public let fineIssuedYear: Swift.Int?
+  public let insuranceAmount: KoinPaymentCheckout.Amount?
+  public let licensingAmount: KoinPaymentCheckout.Amount?
+  public let penaltyAmount: KoinPaymentCheckout.Amount?
+  public init(carOwningTaxType: Swift.String?, carOwningTaxAmount: KoinPaymentCheckout.Amount?, fineIssuedYear: Swift.Int?, insuranceAmount: KoinPaymentCheckout.Amount?, licensingAmount: KoinPaymentCheckout.Amount?, penaltyAmount: KoinPaymentCheckout.Amount?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ItemType : Swift.String, Swift.Codable {
+  case generic
+  case carRental
+  case lodging
+  case flight
+  case education
+  case cellphoneInsurance
+  case carPenaltyFee
+  case travelInsurance
+  case tour
+  case transfer
+  case financing
+  case genericLegacy
+  case bus
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol AnyItemProtocol : Swift.Decodable, Swift.Encodable {
+}
+public struct AnyItem : Swift.Codable {
+  public let item: any KoinPaymentCheckout.AnyItemProtocol
+  public let type: KoinPaymentCheckout.ItemType
+  public init<T>(item: T, type: KoinPaymentCheckout.ItemType) where T : KoinPaymentCheckout.AnyItemProtocol
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func typedItem<T>() -> T? where T : KoinPaymentCheckout.AnyItemProtocol
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func koinPaymentCheckoutPresenter(input: SwiftUICore.Binding<KoinPaymentCheckout.CheckoutInput?>, onDismiss: @escaping () -> Swift.Void, completion: @escaping (KoinPaymentCheckout.CheckoutResult?) -> Swift.Void) -> some SwiftUICore.View
+  
+}
+public struct ItemTypeTour : KoinPaymentCheckout.AnyItemProtocol {
+  public let id: Swift.String
+  public let name: Swift.String
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public let provider: KoinPaymentCheckout.TourProvider
+  public let modality: Swift.String
+  public let description: Swift.String?
+  public let passengersResume: KoinPaymentCheckout.PassengersResume
+  public let passengers: [KoinPaymentCheckout.Passenger]
+  public let service: KoinPaymentCheckout.TourService
+  public let category: KoinPaymentCheckout.Category
+  public let discountAmount: KoinPaymentCheckout.Amount?
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let sellerId: Swift.String?
+  public let serviceDate: Swift.String?
+  public init(id: Swift.String, name: Swift.String, provider: KoinPaymentCheckout.TourProvider, modality: Swift.String, description: Swift.String?, passengersResume: KoinPaymentCheckout.PassengersResume, passengers: [KoinPaymentCheckout.Passenger], service: KoinPaymentCheckout.TourService, category: KoinPaymentCheckout.Category, discountAmount: KoinPaymentCheckout.Amount?, price: KoinPaymentCheckout.Amount, quantity: Swift.Int, sellerId: Swift.String?, serviceDate: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TourProvider : Swift.Codable {
+  public let code: Swift.String
+  public let name: Swift.String
+  public init(code: Swift.String, name: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PassengersResume : Swift.Codable {
+  public let adults: Swift.Int
+  public let children: Swift.Int
+  public let infants: Swift.Int
+  public init(adults: Swift.Int, children: Swift.Int, infants: Swift.Int)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TourService : Swift.Codable {
+  public let destination: Swift.String?
+  public let endDate: Swift.String
+  public let id: Swift.String?
+  public let name: Swift.String?
+  public let numberOfPassengers: Swift.Int
+  public let origin: Swift.String?
+  public let startDate: Swift.String
+  public let subType: Swift.String?
+  public init(destination: Swift.String?, endDate: Swift.String, id: Swift.String?, name: Swift.String?, numberOfPassengers: Swift.Int, origin: Swift.String?, startDate: Swift.String, subType: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PaymentPayPalCheckoutHandle {
+  public let task: _Concurrency.Task<Swift.Void, Swift.Never>
+  public let cancel: () -> Swift.Void
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class PaymentCheckout {
+  @_Concurrency.MainActor public static func initialize(key: Swift.String, account: Swift.String = "default_account", primaryColorHex: Swift.String = "#008f21", secondaryColorHex: Swift.String = "#004E1D", currencyCode: Swift.String = "BRL", isHomolog: Swift.Bool = false, enableLogs: Swift.Bool = false, pollingTimeout: Foundation.TimeInterval = 360.0, pollingInterval: Foundation.TimeInterval = 3.0, paypalClientID: Swift.String = "default_paypal_client_id", maxRetries: Swift.Int = 0)
+  @_Concurrency.MainActor public static func makeCheckoutView(input: KoinPaymentCheckout.CheckoutInput, completion: @escaping (KoinPaymentCheckout.CheckoutResult?) -> Swift.Void) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor public static func presentCheckout(from viewController: UIKit.UIViewController, input: KoinPaymentCheckout.CheckoutInput, completion: @escaping (KoinPaymentCheckout.CheckoutResult?) -> Swift.Void)
+  @_Concurrency.MainActor public static func makePayPalCheckout(input: KoinPaymentCheckout.CheckoutInput, completion: @escaping (KoinPaymentCheckout.PayPalWebResult?, KoinPaymentCheckout.CheckoutResult?) -> Swift.Void) -> KoinPaymentCheckout.PaymentPayPalCheckoutHandle
+  @objc deinit
+}
+public struct ItemTypeTransfer : KoinPaymentCheckout.AnyItemProtocol {
+  public let id: Swift.String
+  public let name: Swift.String
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public let provider: KoinPaymentCheckout.TransferProvider
+  public let passengersResume: KoinPaymentCheckout.PassengersResume
+  public let passengers: [KoinPaymentCheckout.Passenger]?
+  public let service: KoinPaymentCheckout.TransferService
+  public let category: KoinPaymentCheckout.Category
+  public let discountAmount: KoinPaymentCheckout.Amount?
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let sellerId: Swift.String?
+  public let serviceDate: Swift.String?
+  public init(id: Swift.String, name: Swift.String, provider: KoinPaymentCheckout.TransferProvider, passengersResume: KoinPaymentCheckout.PassengersResume, passengers: [KoinPaymentCheckout.Passenger]?, service: KoinPaymentCheckout.TransferService, category: KoinPaymentCheckout.Category, discountAmount: KoinPaymentCheckout.Amount?, price: KoinPaymentCheckout.Amount, quantity: Swift.Int, sellerId: Swift.String?, serviceDate: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TransferProvider : Swift.Codable {
+  public let code: Swift.String
+  public let name: Swift.String
+  public let modality: Swift.String?
+  public let description: Swift.String?
+  public init(code: Swift.String, name: Swift.String, modality: Swift.String?, description: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TransferService : Swift.Codable {
+  public let destination: Swift.String?
+  public let endDate: Swift.String
+  public let id: Swift.String?
+  public let name: Swift.String?
+  public let numberOfPassengers: Swift.Int
+  public let origin: Swift.String?
+  public let startDate: Swift.String
+  public let subType: Swift.String?
+  public init(destination: Swift.String?, endDate: Swift.String, id: Swift.String?, name: Swift.String?, numberOfPassengers: Swift.Int, origin: Swift.String?, startDate: Swift.String, subType: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PaymentResponse : Swift.Sendable, Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+
+public struct ItemTypeGeneric : KoinPaymentCheckout.AnyItemProtocol {
+  public let category: KoinPaymentCheckout.Category
+  public let discountAmount: KoinPaymentCheckout.Amount?
+  public let id: Swift.String
+  public let name: Swift.String
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let sellerId: Swift.String?
+  public let serviceDate: Swift.String?
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public init(category: KoinPaymentCheckout.Category, discountAmount: KoinPaymentCheckout.Amount?, id: Swift.String, name: Swift.String, price: KoinPaymentCheckout.Amount, quantity: Swift.Int, sellerId: Swift.String?, serviceDate: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ItemTypeCarRental : KoinPaymentCheckout.AnyItemProtocol {
+  public let carCategory: Swift.String
+  public let carDescription: Swift.String
+  public let companyName: Swift.String
+  public let drivers: [KoinPaymentCheckout.Driver]
+  public let dropOff: KoinPaymentCheckout.DropOffLocation
+  public let pickUp: KoinPaymentCheckout.PickUpLocation
+  public let category: KoinPaymentCheckout.Category
+  public let discountAmount: KoinPaymentCheckout.Amount?
+  public let id: Swift.String
+  public let name: Swift.String
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let sellerId: Swift.String?
+  public let serviceDate: Swift.String?
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public init(carCategory: Swift.String, carDescription: Swift.String, companyName: Swift.String, drivers: [KoinPaymentCheckout.Driver], dropOff: KoinPaymentCheckout.DropOffLocation, pickUp: KoinPaymentCheckout.PickUpLocation, category: KoinPaymentCheckout.Category, discountAmount: KoinPaymentCheckout.Amount?, id: Swift.String, name: Swift.String, price: KoinPaymentCheckout.Amount, quantity: Swift.Int, sellerId: Swift.String?, serviceDate: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Driver : Swift.Codable {
+  public let id: Swift.String
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let fullName: Swift.String?
+  public let document: KoinPaymentCheckout.Document?
+  public let gender: KoinPaymentCheckout.Gender?
+  public let address: KoinPaymentCheckout.Address?
+  public let birthDate: Swift.String?
+  public let email: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public init(id: Swift.String, firstName: Swift.String?, lastName: Swift.String?, fullName: Swift.String?, document: KoinPaymentCheckout.Document?, gender: KoinPaymentCheckout.Gender?, address: KoinPaymentCheckout.Address?, birthDate: Swift.String?, email: Swift.String?, phone: KoinPaymentCheckout.Phone?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DropOffLocation : Swift.Codable {
+  public let address: KoinPaymentCheckout.Address
+  public let date: Swift.String
+  public init(address: KoinPaymentCheckout.Address, date: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PickUpLocation : Swift.Codable {
+  public let address: KoinPaymentCheckout.Address
+  public let date: Swift.String
+  public init(address: KoinPaymentCheckout.Address, date: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ItemTypeFinancing : KoinPaymentCheckout.AnyItemProtocol {
+  public let id: Swift.String
+  public let name: Swift.String
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public let recipient: KoinPaymentCheckout.FinancingRecipient
+  public let account: KoinPaymentCheckout.AccountDetails
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let serviceDate: Swift.String
+  public init(id: Swift.String, name: Swift.String, recipient: KoinPaymentCheckout.FinancingRecipient, account: KoinPaymentCheckout.AccountDetails, price: KoinPaymentCheckout.Amount, quantity: Swift.Int, serviceDate: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FinancingRecipient : Swift.Codable {
+  public let fullName: Swift.String
+  public let email: Swift.String?
+  public let emv: Swift.String?
+  public let document: KoinPaymentCheckout.Document
+  public let phone: KoinPaymentCheckout.Phone?
+  public init(fullName: Swift.String, email: Swift.String?, emv: Swift.String?, document: KoinPaymentCheckout.Document, phone: KoinPaymentCheckout.Phone?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AccountDetails : Swift.Codable {
+  public let ispb: Swift.String
+  public let agency: Swift.String
+  public let code: Swift.String
+  public let type: Swift.String
+  public let bank: KoinPaymentCheckout.Bank
+  public init(ispb: Swift.String, agency: Swift.String, code: Swift.String, type: Swift.String, bank: KoinPaymentCheckout.Bank)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Bank : Swift.Codable {
+  public let name: Swift.String
+  public init(name: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PaymentBnpl : Swift.Codable {
+  public let store: KoinPaymentCheckout.Store?
+  public var transaction: KoinPaymentCheckout.BnplTransaction?
+  public let countryCode: Swift.String?
+  public let paymentMethod: KoinPaymentCheckout.BnplPaymentMethod?
+  public let payer: KoinPaymentCheckout.BnplPayer?
+  public let shipping: KoinPaymentCheckout.BnplShipping?
+  public let items: [KoinPaymentCheckout.AnyItem]?
+  public let ipAddress: Swift.String?
+  public let verifiedId: Swift.Bool?
+  public let descriptor: Swift.String?
+  public let deviceFingerprint: Swift.String?
+  public let notificationUrl: [Swift.String]?
+  public let paymentUrl: Swift.String?
+  public let terms: KoinPaymentCheckout.Terms?
+  public let mobile: Swift.Bool?
+  public init(store: KoinPaymentCheckout.Store? = nil, transaction: KoinPaymentCheckout.BnplTransaction? = nil, countryCode: Swift.String? = nil, paymentMethod: KoinPaymentCheckout.BnplPaymentMethod? = nil, payer: KoinPaymentCheckout.BnplPayer? = nil, shipping: KoinPaymentCheckout.BnplShipping? = nil, items: [KoinPaymentCheckout.AnyItem]? = nil, ipAddress: Swift.String? = nil, verifiedId: Swift.Bool? = nil, descriptor: Swift.String? = nil, deviceFingerprint: Swift.String? = nil, notificationUrl: [Swift.String]? = nil, paymentUrl: Swift.String? = nil, terms: KoinPaymentCheckout.Terms? = nil, mobile: Swift.Bool? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BnplTransaction : Swift.Codable {
+  public let referenceId: Swift.String?
+  public let businessId: Swift.String?
+  public var account: Swift.String?
+  public var amount: KoinPaymentCheckout.BnplAmount?
+  public init(referenceId: Swift.String? = nil, businessId: Swift.String? = nil, account: Swift.String? = nil, amount: KoinPaymentCheckout.BnplAmount? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BnplAmount : Swift.Codable {
+  public var currencyCode: Swift.String?
+  public let value: Swift.Double?
+  public let breakdown: KoinPaymentCheckout.BnplBreakdown?
+  public init(currencyCode: Swift.String? = nil, value: Swift.Double? = nil, breakdown: KoinPaymentCheckout.BnplBreakdown? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BnplBreakdown : Swift.Codable {
+  public let items: KoinPaymentCheckout.AmountDetail?
+  public let shipping: KoinPaymentCheckout.AmountDetail?
+  public let taxes: KoinPaymentCheckout.AmountDetail?
+  public init(items: KoinPaymentCheckout.AmountDetail? = nil, shipping: KoinPaymentCheckout.AmountDetail? = nil, taxes: KoinPaymentCheckout.AmountDetail? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BnplPaymentMethod : Swift.Codable {
+  public let code: Swift.String?
+  public let expirationDate: Swift.String?
+  public let optionId: Swift.String?
+  public init(code: Swift.String? = nil, expirationDate: Swift.String? = nil, optionId: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BnplPayer : Swift.Codable {
+  public let document: KoinPaymentCheckout.Document?
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let nameFather: Swift.String?
+  public let nameMother: Swift.String?
+  public let fullName: Swift.String?
+  public let gender: Swift.String?
+  public let email: Swift.String?
+  public let phone: KoinPaymentCheckout.Phone?
+  public let birthdate: Swift.String?
+  public let address: KoinPaymentCheckout.BnplAddress?
+  public init(document: KoinPaymentCheckout.Document? = nil, firstName: Swift.String? = nil, lastName: Swift.String? = nil, nameFather: Swift.String? = nil, nameMother: Swift.String? = nil, fullName: Swift.String? = nil, gender: Swift.String? = nil, email: Swift.String? = nil, phone: KoinPaymentCheckout.Phone? = nil, birthdate: Swift.String? = nil, address: KoinPaymentCheckout.BnplAddress? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BnplAddress : Swift.Codable {
+  public let countryCode: Swift.String?
+  public let state: Swift.String?
+  public let cityName: Swift.String?
+  public let street: Swift.String?
+  public let number: Swift.String?
+  public let zipCode: Swift.String?
+  public let district: Swift.String?
+  public let complement: Swift.String?
+  public init(countryCode: Swift.String? = nil, state: Swift.String? = nil, cityName: Swift.String? = nil, street: Swift.String? = nil, number: Swift.String? = nil, zipCode: Swift.String? = nil, district: Swift.String? = nil, complement: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BnplShipping : Swift.Codable {
+  public let deliveryDate: Swift.String?
+  public let address: KoinPaymentCheckout.BnplAddress?
+  public init(deliveryDate: Swift.String? = nil, address: KoinPaymentCheckout.BnplAddress? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Category : Swift.Codable {
+  public let id: Swift.String?
+  public let name: Swift.String?
+  public init(id: Swift.String? = nil, name: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Terms : Swift.Codable {
+  public let accepted: Swift.Bool?
+  public init(accepted: Swift.Bool? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PaymentError : Swift.Codable, Swift.Sendable, Swift.Error {
+  public let code: Swift.Int
+  public let message: Swift.String
+  public let causes: [Swift.String]
+  public let tracking: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ItemTypeEducation : KoinPaymentCheckout.AnyItemProtocol {
+  public let id: Swift.String
+  public let name: Swift.String
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public let course: KoinPaymentCheckout.CourseDetails
+  public let category: KoinPaymentCheckout.Category
+  public let discountAmount: KoinPaymentCheckout.Amount?
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let sellerId: Swift.String?
+  public let serviceDate: Swift.String?
+  public init(id: Swift.String, name: Swift.String, course: KoinPaymentCheckout.CourseDetails, category: KoinPaymentCheckout.Category, discountAmount: KoinPaymentCheckout.Amount?, price: KoinPaymentCheckout.Amount, quantity: Swift.Int, sellerId: Swift.String?, serviceDate: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CourseDetails : Swift.Codable {
+  public let category: Swift.String?
+  public let endDate: Swift.String?
+  public let link: Swift.String?
+  public let monthlyFee: Swift.Double?
+  public let name: Swift.String
+  public let presential: Swift.Bool?
+  public let scholarshipPercentage: Swift.Int?
+  public let startDate: Swift.String
+  public let subcategory: Swift.String?
+  public let students: [KoinPaymentCheckout.Student]
+  public init(category: Swift.String?, endDate: Swift.String?, link: Swift.String?, monthlyFee: Swift.Double?, name: Swift.String, presential: Swift.Bool?, scholarshipPercentage: Swift.Int?, startDate: Swift.String, subcategory: Swift.String?, students: [KoinPaymentCheckout.Student])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Student : Swift.Codable {
+  public let address: KoinPaymentCheckout.Address
+  public let birthDate: Swift.String
+  public let document: KoinPaymentCheckout.Document
+  public let email: Swift.String
+  public let firstName: Swift.String
+  public let gender: KoinPaymentCheckout.Gender
+  public let id: Swift.String?
+  public let lastName: Swift.String
+  public let phone: KoinPaymentCheckout.Phone
+  public let relationshipWithPayer: Swift.String
+  public init(address: KoinPaymentCheckout.Address, birthDate: Swift.String, document: KoinPaymentCheckout.Document, email: Swift.String, firstName: Swift.String, gender: KoinPaymentCheckout.Gender, id: Swift.String?, lastName: Swift.String, phone: KoinPaymentCheckout.Phone, relationshipWithPayer: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PaymentCardCheckout : Swift.Codable {
+  public var presentationStyle: KoinPaymentCheckout.LauncherViewPresentationStyle?
+  public let store: KoinPaymentCheckout.Store?
+  public var transaction: KoinPaymentCheckout.Transaction?
+  public let countryCode: Swift.String?
+  public let paymentMethod: KoinPaymentCheckout.PaymentMethod?
+  public let payer: KoinPaymentCheckout.Payer?
+  public let buyer: KoinPaymentCheckout.Buyer?
+  public let items: [KoinPaymentCheckout.AnyItem]?
+  public let shipping: KoinPaymentCheckout.Shipping?
+  public let descriptor: Swift.String?
+  public let notificationUrl: [Swift.String]?
+  public let sessionId: Swift.String?
+  public let ipAddress: Swift.String?
+  public let redirectUrl: KoinPaymentCheckout.RedirectUrl?
+  public let mobile: Swift.Bool?
+  public init(presentationStyle: KoinPaymentCheckout.LauncherViewPresentationStyle = .fullscreen, store: KoinPaymentCheckout.Store? = nil, transaction: KoinPaymentCheckout.Transaction? = nil, countryCode: Swift.String? = nil, paymentMethod: KoinPaymentCheckout.PaymentMethod? = nil, payer: KoinPaymentCheckout.Payer? = nil, buyer: KoinPaymentCheckout.Buyer? = nil, items: [KoinPaymentCheckout.AnyItem]? = nil, shipping: KoinPaymentCheckout.Shipping? = nil, descriptor: Swift.String? = nil, notificationUrl: [Swift.String]? = nil, sessionId: Swift.String? = nil, ipAddress: Swift.String? = nil, redirectUrl: KoinPaymentCheckout.RedirectUrl? = nil, mobile: Swift.Bool? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BreakdownItems : Swift.Codable {
+  public let currencyCode: Swift.String?
+  public let value: Swift.Double?
+  public init(currencyCode: Swift.String? = nil, value: Swift.Double? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Taxes : Swift.Codable {
+  public let currencyCode: Swift.String?
+  public let value: Swift.Double?
+  public init(currencyCode: Swift.String? = nil, value: Swift.Double? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BreakdownShipping : Swift.Codable {
+  public let currencyCode: Swift.String?
+  public let value: Swift.Double?
+  public init(currencyCode: Swift.String? = nil, value: Swift.Double? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Fee : Swift.Codable {
+  public let currencyCode: Swift.String?
+  public let value: Swift.Double?
+  public init(currencyCode: Swift.String? = nil, value: Swift.Double? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Price : Swift.Codable {
+  public let currencyCode: Swift.String?
+  public let value: Swift.Double?
+  public init(currencyCode: Swift.String? = nil, value: Swift.Double? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ItemTypeBus : KoinPaymentCheckout.AnyItemProtocol {
+  public let id: Swift.String
+  public let name: Swift.String
+  public var type: KoinPaymentCheckout.ItemType {
+    get
+  }
+  public let itineraryType: KoinPaymentCheckout.ItineraryType
+  public let passengers: [KoinPaymentCheckout.Passenger]
+  public let price: KoinPaymentCheckout.Amount
+  public let quantity: Swift.Int
+  public let routeType: KoinPaymentCheckout.RouteType
+  public let routes: [KoinPaymentCheckout.BusRoute]
+  public init(id: Swift.String, name: Swift.String, itineraryType: KoinPaymentCheckout.ItineraryType, passengers: [KoinPaymentCheckout.Passenger], price: KoinPaymentCheckout.Amount, quantity: Swift.Int, routeType: KoinPaymentCheckout.RouteType, routes: [KoinPaymentCheckout.BusRoute])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BusRoute : Swift.Codable {
+  public let position: Swift.Int
+  public let companyName: Swift.String
+  public let departure: KoinPaymentCheckout.RouteSegment
+  public let arrival: KoinPaymentCheckout.RouteSegment
+  public init(position: Swift.Int, companyName: Swift.String, departure: KoinPaymentCheckout.RouteSegment, arrival: KoinPaymentCheckout.RouteSegment)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct RouteSegment : Swift.Codable {
+  public let city: Swift.String
+  public let state: Swift.String
+  public let date: Swift.String
+  public let timezone: Swift.Int?
+  public init(city: Swift.String, state: Swift.String, date: Swift.String, timezone: Swift.Int?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum CheckoutResult : Swift.Sendable {
+  case processed(data: KoinPaymentCheckout.CheckoutOutcome)
+  case failure(error: KoinPaymentCheckout.PaymentError)
+}
+public struct CheckoutOutcome : Swift.Sendable {
+  public let status: KoinPaymentCheckout.PaymentStatus
+  public let referenceId: Swift.String?
+  public let transactionId: Swift.String?
+  public let orderId: Swift.String?
+}
+public struct PaymentStatus : Swift.Codable, Swift.Sendable {
+  public let type: Swift.String
+  public let date: Swift.String?
+  public let reason: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension KoinPaymentCheckout.Gender : Swift.Equatable {}
+extension KoinPaymentCheckout.Gender : Swift.Hashable {}
+extension KoinPaymentCheckout.Gender : Swift.RawRepresentable {}
+extension KoinPaymentCheckout.ItineraryType : Swift.Equatable {}
+extension KoinPaymentCheckout.ItineraryType : Swift.Hashable {}
+extension KoinPaymentCheckout.ItineraryType : Swift.RawRepresentable {}
+extension KoinPaymentCheckout.RouteType : Swift.Equatable {}
+extension KoinPaymentCheckout.RouteType : Swift.Hashable {}
+extension KoinPaymentCheckout.RouteType : Swift.RawRepresentable {}
+extension KoinPaymentCheckout.InsuranceRegion : Swift.Equatable {}
+extension KoinPaymentCheckout.InsuranceRegion : Swift.Hashable {}
+extension KoinPaymentCheckout.InsuranceRegion : Swift.RawRepresentable {}
+extension KoinPaymentCheckout.LauncherViewPresentationStyle : Swift.Equatable {}
+extension KoinPaymentCheckout.LauncherViewPresentationStyle : Swift.Hashable {}
+extension KoinPaymentCheckout.ItemType : Swift.Equatable {}
+extension KoinPaymentCheckout.ItemType : Swift.Hashable {}
+extension KoinPaymentCheckout.ItemType : Swift.RawRepresentable {}
+extension KoinPaymentCheckout.PaymentCheckout : Swift.Sendable {}
