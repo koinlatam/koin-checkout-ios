@@ -26,6 +26,78 @@
         "moduleName": "KoinPaymentCheckout"
       },
       {
+        "kind": "TypeDecl",
+        "name": "KoinResources",
+        "printedName": "KoinResources",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19KoinPaymentCheckout0A9ResourcesO6bundleSo8NSBundleCvpZ",
+            "mangledName": "$s19KoinPaymentCheckout0A9ResourcesO6bundleSo8NSBundleCvpZ",
+            "moduleName": "KoinPaymentCheckout",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19KoinPaymentCheckout0A9ResourcesO6bundleSo8NSBundleCvgZ",
+                "mangledName": "$s19KoinPaymentCheckout0A9ResourcesO6bundleSo8NSBundleCvgZ",
+                "moduleName": "KoinPaymentCheckout",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19KoinPaymentCheckout0A9ResourcesO",
+        "mangledName": "$s19KoinPaymentCheckout0A9ResourcesO",
+        "moduleName": "KoinPaymentCheckout",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -18136,6 +18208,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -30099,8 +30178,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19KoinPaymentCheckout0bC0C010makePayPalC05input10completionAA0befC6HandleVAA0C5InputV_yAA0eF9WebResultOSg_AA0cL0OSgtctFZ",
-            "mangledName": "$s19KoinPaymentCheckout0bC0C010makePayPalC05input10completionAA0befC6HandleVAA0C5InputV_yAA0eF9WebResultOSg_AA0cL0OSgtctFZ",
+            "usr": "s:19KoinPaymentCheckout0bC0C010makePayPalC05input10completionAA0befC6HandleVAA0C5InputV_yAA0eF9WebResultOSg_AA0cL0OSgtYbctFZ",
+            "mangledName": "$s19KoinPaymentCheckout0bC0C010makePayPalC05input10completionAA0befC6HandleVAA0C5InputV_yAA0eF9WebResultOSg_AA0cL0OSgtYbctFZ",
             "moduleName": "KoinPaymentCheckout",
             "static": true,
             "declAttributes": [
@@ -49214,20 +49293,6 @@
       "value": "\"error_button\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Extensions\/Bundle+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
-      "length": 30,
-      "value": "\"KoinPaymentCheckoutResources\""
-    },
-    {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Extensions\/Bundle+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 189,
-      "length": 8,
-      "value": "\"bundle\""
-    },
-    {
       "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
       "kind": "StringLiteral",
       "offset": 1367,
@@ -49730,13 +49795,6 @@
       "offset": 1212,
       "length": 14,
       "value": "\"reference_id\""
-    },
-    {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/PayPal\/PayPalWebCheckout.swift",
-      "kind": "BooleanLiteral",
-      "offset": 670,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
@@ -50266,7 +50324,7 @@
     {
       "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "IntegerLiteral",
-      "offset": 7230,
+      "offset": 7253,
       "length": 1,
       "value": "0"
     },
@@ -50861,14 +50919,14 @@
     {
       "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/ViewModel\/HandlePaymentFinalizationUseCase.swift",
       "kind": "Array",
-      "offset": 107,
+      "offset": 117,
       "length": 14,
       "value": "[\"Authorized\"]"
     },
     {
       "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/ViewModel\/HandlePaymentFinalizationUseCase.swift",
       "kind": "BooleanLiteral",
-      "offset": 478,
+      "offset": 488,
       "length": 5,
       "value": "false"
     },

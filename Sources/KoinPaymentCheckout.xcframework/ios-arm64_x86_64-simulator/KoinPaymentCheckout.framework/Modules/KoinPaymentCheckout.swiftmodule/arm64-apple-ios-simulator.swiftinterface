@@ -13,6 +13,11 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
+public enum KoinResources {
+  public static var bundle: Foundation.Bundle {
+    get
+  }
+}
 public struct ItemTypeGenericLegacy : KoinPaymentCheckout.AnyItemProtocol {
   public let name: Swift.String
   public var type: KoinPaymentCheckout.ItemType {
@@ -400,7 +405,7 @@ public struct PayPalOrderTransaction : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public enum PayPalWebResult {
+public enum PayPalWebResult : Swift.Sendable {
   case approved(orderID: Swift.String)
   case cancelled
   case failed(message: Swift.String)
@@ -688,7 +693,7 @@ public struct PaymentPayPalCheckoutHandle {
   @_Concurrency.MainActor public static func makeCheckoutView(input: KoinPaymentCheckout.CheckoutInput, completion: @escaping (KoinPaymentCheckout.CheckoutResult?) -> Swift.Void) -> some SwiftUICore.View
   
   @_Concurrency.MainActor public static func presentCheckout(from viewController: UIKit.UIViewController, input: KoinPaymentCheckout.CheckoutInput, completion: @escaping (KoinPaymentCheckout.CheckoutResult?) -> Swift.Void)
-  @_Concurrency.MainActor public static func makePayPalCheckout(input: KoinPaymentCheckout.CheckoutInput, completion: @escaping (KoinPaymentCheckout.PayPalWebResult?, KoinPaymentCheckout.CheckoutResult?) -> Swift.Void) -> KoinPaymentCheckout.PaymentPayPalCheckoutHandle
+  @_Concurrency.MainActor public static func makePayPalCheckout(input: KoinPaymentCheckout.CheckoutInput, completion: @escaping @Sendable (KoinPaymentCheckout.PayPalWebResult?, KoinPaymentCheckout.CheckoutResult?) -> Swift.Void) -> KoinPaymentCheckout.PaymentPayPalCheckoutHandle
   @objc deinit
 }
 public struct ItemTypeTransfer : KoinPaymentCheckout.AnyItemProtocol {
