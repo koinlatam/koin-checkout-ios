@@ -17502,6 +17502,32 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentPayPalOrder",
+                "printedName": "KoinPaymentCheckout.PaymentPayPalOrder",
+                "usr": "s:19KoinPaymentCheckout0B11PayPalOrderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19KoinPaymentCheckout0B11PayPalOrderV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s19KoinPaymentCheckout0B11PayPalOrderV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "KoinPaymentCheckout",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -17548,6 +17574,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           },
           {
             "kind": "Conformance",
@@ -49778,21 +49811,21 @@
     {
       "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPayPalOrder.swift",
       "kind": "StringLiteral",
-      "offset": 645,
+      "offset": 643,
       "length": 14,
       "value": "\"country_code\""
     },
     {
       "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPayPalOrder.swift",
       "kind": "StringLiteral",
-      "offset": 733,
+      "offset": 731,
       "length": 16,
       "value": "\"payment_method\""
     },
     {
       "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPayPalOrder.swift",
       "kind": "StringLiteral",
-      "offset": 1212,
+      "offset": 1210,
       "length": 14,
       "value": "\"reference_id\""
     },

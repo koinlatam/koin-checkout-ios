@@ -389,13 +389,14 @@ public enum Payment : Swift.Encodable {
     get
   }
 }
-public struct PaymentPayPalOrder : Swift.Encodable {
+public struct PaymentPayPalOrder : Swift.Codable {
   public let countryCode: Swift.String?
   public var transaction: KoinPaymentCheckout.PayPalOrderTransaction?
   public let store: KoinPaymentCheckout.Store?
   public let paymentMethod: KoinPaymentCheckout.PaymentMethod?
   public init(countryCode: Swift.String? = nil, transaction: KoinPaymentCheckout.PayPalOrderTransaction? = nil, store: KoinPaymentCheckout.Store? = nil, paymentMethod: KoinPaymentCheckout.PaymentMethod? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct PayPalOrderTransaction : Swift.Codable {
   public let referenceId: Swift.String?

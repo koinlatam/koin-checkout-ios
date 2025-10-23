@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = 'KoinPaymentCheckout'
-  s.version     = '1.0.0-build.11'
+  s.version     = '1.0.0-build.12'
   s.summary     = 'Koin Checkout SDK'
   s.description = 'Koin SDK for payment integration on iOS.'
   s.homepage    = 'https://github.com/koinlatam/koin-checkout-ios'
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.platform       = :ios, '15.0'
   s.swift_versions = '5.10'
   s.source = {
-    :http   => 'https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.11/KoinPaymentCheckout.xcframework.zip',
-    :sha256 => '323b9dd87e69146362613d7f12e1fb04e34c234924c4ba2a100d6050bc081645'
+    :http   => 'https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.12/KoinPaymentCheckout.xcframework.zip',
+    :sha256 => '36c874e8bf3f0c118e98538c21f6e3469bfb70d5974c4a1b9954ae79f517ad32'
   }
   s.vendored_frameworks = 'KoinPaymentCheckout.xcframework'
   s.requires_arc        = true
