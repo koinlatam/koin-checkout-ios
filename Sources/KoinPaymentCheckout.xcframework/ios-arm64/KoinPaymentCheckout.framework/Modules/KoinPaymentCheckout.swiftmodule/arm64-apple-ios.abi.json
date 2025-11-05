@@ -49291,1680 +49291,1687 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Components\/DefaultErrorView.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Components\/DefaultErrorView.swift",
       "kind": "BooleanLiteral",
       "offset": 232,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Components\/DefaultErrorView.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Components\/DefaultErrorView.swift",
       "kind": "StringLiteral",
       "offset": 681,
       "length": 30,
       "value": "\"exclamation-warning-triangle\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Components\/DefaultErrorView.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Components\/DefaultErrorView.swift",
       "kind": "StringLiteral",
       "offset": 737,
       "length": 13,
       "value": "\"error_title\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Components\/DefaultErrorView.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Components\/DefaultErrorView.swift",
       "kind": "StringLiteral",
       "offset": 778,
       "length": 24,
       "value": "\"error_description_body\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Components\/DefaultErrorView.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Components\/DefaultErrorView.swift",
       "kind": "StringLiteral",
       "offset": 834,
       "length": 14,
       "value": "\"error_button\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
       "kind": "StringLiteral",
       "offset": 1367,
       "length": 17,
       "value": "\"discount_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
       "kind": "StringLiteral",
       "offset": 1450,
       "length": 11,
       "value": "\"seller_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
       "kind": "StringLiteral",
       "offset": 1489,
       "length": 14,
       "value": "\"service_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
       "kind": "StringLiteral",
       "offset": 2539,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
       "kind": "StringLiteral",
       "offset": 2576,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
       "kind": "StringLiteral",
       "offset": 2612,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
       "kind": "StringLiteral",
       "offset": 2712,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
       "kind": "StringLiteral",
       "offset": 3629,
       "length": 17,
       "value": "\"expiration_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCellphoneInsurance.swift",
       "kind": "StringLiteral",
       "offset": 3704,
       "length": 19,
       "value": "\"subscription_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
       "kind": "StringLiteral",
       "offset": 1222,
       "length": 17,
       "value": "\"discount_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
       "kind": "StringLiteral",
       "offset": 1269,
       "length": 16,
       "value": "\"itinerary_type\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
       "kind": "StringLiteral",
       "offset": 1376,
       "length": 12,
       "value": "\"route_type\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
       "kind": "StringLiteral",
       "offset": 1433,
       "length": 11,
       "value": "\"seller_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
       "kind": "StringLiteral",
       "offset": 2551,
       "length": 14,
       "value": "\"airline_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
       "kind": "StringLiteral",
       "offset": 2637,
       "length": 14,
       "value": "\"flight_class\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
       "kind": "StringLiteral",
       "offset": 2680,
       "length": 15,
       "value": "\"flight_number\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFlight.swift",
       "kind": "StringLiteral",
       "offset": 3129,
       "length": 14,
       "value": "\"airport_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 807,
       "length": 14,
       "value": "\"reference_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 848,
       "length": 13,
       "value": "\"business_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 1356,
       "length": 15,
       "value": "\"currency_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 2233,
       "length": 15,
       "value": "\"currency_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 3365,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 3402,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 3438,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 3538,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 4594,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 4631,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 4667,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 6006,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 6043,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 6079,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 6198,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 7283,
       "length": 14,
       "value": "\"country_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 8429,
       "length": 14,
       "value": "\"country_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 8552,
       "length": 10,
       "value": "\"zip_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 8590,
       "length": 14,
       "value": "\"full_address\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 9876,
       "length": 17,
       "value": "\"expiration_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 9921,
       "length": 14,
       "value": "\"secure_token\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 10420,
       "length": 13,
       "value": "\"success_url\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 10459,
       "length": 12,
       "value": "\"cancel_url\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 10497,
       "length": 12,
       "value": "\"failed_url\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 11511,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 11548,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 11648,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 11764,
       "length": 8,
       "value": "\"FEMALE\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 11789,
       "length": 6,
       "value": "\"MALE\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 11813,
       "length": 7,
       "value": "\"OTHER\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 11897,
       "length": 18,
       "value": "\"MULTIDESTINATION\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 11934,
       "length": 8,
       "value": "\"ONEWAY\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 11964,
       "length": 12,
       "value": "\"ROUND_TRIP\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 12041,
       "length": 10,
       "value": "\"DOMESTIC\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/CommonStructs.swift",
       "kind": "StringLiteral",
       "offset": 12077,
       "length": 15,
       "value": "\"INTERNATIONAL\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 1607,
       "length": 14,
       "value": "\"checkin_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 1650,
       "length": 15,
       "value": "\"checkout_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 1802,
       "length": 17,
       "value": "\"discount_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 1919,
       "length": 11,
       "value": "\"seller_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 1958,
       "length": 14,
       "value": "\"service_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 3027,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 3064,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 3100,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 3200,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 4288,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 4325,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 4361,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeLodging.swift",
       "kind": "StringLiteral",
       "offset": 4461,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Networking\/API\/DefaultHttpClient.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Networking\/API\/DefaultHttpClient.swift",
       "kind": "Array",
       "offset": 466,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/Model\/PaymentOrderResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/Model\/PaymentOrderResponse.swift",
       "kind": "StringLiteral",
       "offset": 289,
       "length": 10,
       "value": "\"order_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/Model\/PaymentOrderResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/Model\/PaymentOrderResponse.swift",
       "kind": "StringLiteral",
       "offset": 613,
       "length": 14,
       "value": "\"reference_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/Model\/PaymentOrderResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/Model\/PaymentOrderResponse.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 16,
       "value": "\"transaction_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPayPalOrder.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPayPalOrder.swift",
       "kind": "StringLiteral",
       "offset": 643,
       "length": 14,
       "value": "\"country_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPayPalOrder.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPayPalOrder.swift",
       "kind": "StringLiteral",
       "offset": 731,
       "length": 16,
       "value": "\"payment_method\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPayPalOrder.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPayPalOrder.swift",
       "kind": "StringLiteral",
       "offset": 1210,
       "length": 14,
       "value": "\"reference_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 1444,
       "length": 17,
       "value": "\"discount_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 1527,
       "length": 11,
       "value": "\"seller_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 1566,
       "length": 14,
       "value": "\"service_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 3032,
       "length": 10,
       "value": "\"end_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 3111,
       "length": 22,
       "value": "\"number_of_passengers\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 3179,
       "length": 12,
       "value": "\"start_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 3215,
       "length": 10,
       "value": "\"sub_type\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 4273,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 4310,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 4346,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 4446,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 4573,
       "length": 10,
       "value": "\"NATIONAL\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 4602,
       "length": 8,
       "value": "\"EUROPE\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 4635,
       "length": 15,
       "value": "\"UNITED_STATES\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 4675,
       "length": 15,
       "value": "\"LATIN_AMERICA\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 4719,
       "length": 19,
       "value": "\"MULTI_DESTINATION\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTravelInsurance.swift",
       "kind": "StringLiteral",
       "offset": 4756,
       "length": 7,
       "value": "\"OTHER\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Utilities\/Logger\/DefaultLogger.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Utilities\/Logger\/DefaultLogger.swift",
       "kind": "StringLiteral",
       "offset": 131,
       "length": 31,
       "value": "\"br.com.koin.payments.checkout\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Utilities\/Logger\/DefaultLogger.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Utilities\/Logger\/DefaultLogger.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 9,
       "value": "\"Default\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
       "kind": "StringLiteral",
       "offset": 1200,
       "length": 14,
       "value": "\"country_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
       "kind": "StringLiteral",
       "offset": 1244,
       "length": 16,
       "value": "\"payment_method\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
       "kind": "StringLiteral",
       "offset": 1335,
       "length": 18,
       "value": "\"notification_url\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
       "kind": "StringLiteral",
       "offset": 1381,
       "length": 14,
       "value": "\"redirect_url\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
       "kind": "StringLiteral",
       "offset": 1660,
       "length": 17,
       "value": "\"expiration_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
       "kind": "StringLiteral",
       "offset": 1704,
       "length": 13,
       "value": "\"payment_key\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
       "kind": "StringLiteral",
       "offset": 2263,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
       "kind": "StringLiteral",
       "offset": 2300,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentPixCheckout.swift",
       "kind": "StringLiteral",
       "offset": 2336,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 1201,
       "length": 17,
       "value": "\"discount_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 1303,
       "length": 11,
       "value": "\"seller_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 1342,
       "length": 14,
       "value": "\"service_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 2082,
       "length": 15,
       "value": "\"license_plate\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 3411,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 3448,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 3484,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 3584,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 4503,
       "length": 21,
       "value": "\"car_owning_tax_type\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 4559,
       "length": 23,
       "value": "\"car_owning_tax_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 4613,
       "length": 18,
       "value": "\"fine_issued_year\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 4663,
       "length": 18,
       "value": "\"insurance_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 4713,
       "length": 17,
       "value": "\"licesing_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarPenaltyFee.swift",
       "kind": "StringLiteral",
       "offset": 4760,
       "length": 16,
       "value": "\"penalty_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 78,
       "length": 9,
       "value": "\"Generic\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 109,
       "length": 11,
       "value": "\"CarRental\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 140,
       "length": 9,
       "value": "\"Lodging\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 8,
       "value": "\"Flight\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 11,
       "value": "\"Education\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 240,
       "length": 20,
       "value": "\"CellphoneInsurance\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 15,
       "value": "\"CarPenaltyFee\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 17,
       "value": "\"TravelInsurance\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 363,
       "length": 6,
       "value": "\"Tour\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 390,
       "length": 10,
       "value": "\"Transfer\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 422,
       "length": 11,
       "value": "\"Financing\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 459,
       "length": 15,
       "value": "\"GenericLegacy\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/AnyItem.swift",
       "kind": "StringLiteral",
       "offset": 490,
       "length": 5,
       "value": "\"Bus\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/View\/LauncherView.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/View\/LauncherView.swift",
       "kind": "BooleanLiteral",
       "offset": 188,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/View\/WebViewCheckoutView.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/View\/WebViewCheckoutView.swift",
       "kind": "BooleanLiteral",
       "offset": 198,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
       "kind": "StringLiteral",
       "offset": 1705,
       "length": 19,
       "value": "\"passengers_resume\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
       "kind": "StringLiteral",
       "offset": 1822,
       "length": 17,
       "value": "\"discount_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
       "kind": "StringLiteral",
       "offset": 1905,
       "length": 11,
       "value": "\"seller_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
       "kind": "StringLiteral",
       "offset": 1944,
       "length": 14,
       "value": "\"service_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
       "kind": "StringLiteral",
       "offset": 3399,
       "length": 10,
       "value": "\"end_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
       "kind": "StringLiteral",
       "offset": 3478,
       "length": 22,
       "value": "\"number_of_passengers\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
       "kind": "StringLiteral",
       "offset": 3546,
       "length": 12,
       "value": "\"start_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTour.swift",
       "kind": "StringLiteral",
       "offset": 3582,
       "length": 10,
       "value": "\"sub_type\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 17,
       "value": "\"default_account\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "StringLiteral",
       "offset": 386,
       "length": 9,
       "value": "\"#008f21\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 9,
       "value": "\"#004E1D\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 5,
       "value": "\"BRL\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "BooleanLiteral",
       "offset": 508,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "BooleanLiteral",
       "offset": 542,
-      "length": 5,
-      "value": "false"
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "FloatLiteral",
-      "offset": 588,
+      "offset": 587,
       "length": 5,
       "value": "360.0"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "FloatLiteral",
-      "offset": 635,
+      "offset": 634,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "StringLiteral",
-      "offset": 673,
+      "offset": 672,
       "length": 26,
       "value": "\"default_paypal_client_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "IntegerLiteral",
-      "offset": 727,
+      "offset": 726,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Core\/PaymentCheckout.swift",
       "kind": "IntegerLiteral",
-      "offset": 7253,
+      "offset": 7371,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
       "kind": "StringLiteral",
       "offset": 1488,
       "length": 19,
       "value": "\"passengers_resume\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
       "kind": "StringLiteral",
       "offset": 1605,
       "length": 17,
       "value": "\"discount_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
       "kind": "StringLiteral",
       "offset": 1688,
       "length": 11,
       "value": "\"seller_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
       "kind": "StringLiteral",
       "offset": 1727,
       "length": 14,
       "value": "\"service_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
       "kind": "StringLiteral",
       "offset": 3069,
       "length": 10,
       "value": "\"end_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
       "kind": "StringLiteral",
       "offset": 3148,
       "length": 22,
       "value": "\"number_of_passengers\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
       "kind": "StringLiteral",
       "offset": 3216,
       "length": 12,
       "value": "\"start_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeTransfer.swift",
       "kind": "StringLiteral",
       "offset": 3252,
       "length": 10,
       "value": "\"sub_type\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 14,
       "value": "\"country_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 12,
       "value": "\"return_url\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 468,
       "length": 10,
       "value": "\"order_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 983,
       "length": 15,
       "value": "\"currency_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 1305,
       "length": 14,
       "value": "\"reference_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 1353,
       "length": 20,
       "value": "\"provider_reference\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 1403,
       "length": 16,
       "value": "\"transaction_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 1682,
       "length": 7,
       "value": "\"tx_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 1716,
       "length": 15,
       "value": "\"end_to_end_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 1755,
       "length": 10,
       "value": "\"order_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 1791,
       "length": 12,
       "value": "\"payment_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeGeneric.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeGeneric.swift",
       "kind": "StringLiteral",
       "offset": 962,
       "length": 17,
       "value": "\"discount_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeGeneric.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeGeneric.swift",
       "kind": "StringLiteral",
       "offset": 1079,
       "length": 11,
       "value": "\"seller_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeGeneric.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeGeneric.swift",
       "kind": "StringLiteral",
       "offset": 1118,
       "length": 14,
       "value": "\"service_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 1557,
       "length": 14,
       "value": "\"car_category\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 1602,
       "length": 17,
       "value": "\"car_description\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 1647,
       "length": 14,
       "value": "\"company_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 1706,
       "length": 10,
       "value": "\"drop_off\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 1739,
       "length": 9,
       "value": "\"pick_up\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 1801,
       "length": 17,
       "value": "\"discount_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 1918,
       "length": 11,
       "value": "\"seller_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 1957,
       "length": 14,
       "value": "\"service_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 3025,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 3062,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 3098,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeCarRental.swift",
       "kind": "StringLiteral",
       "offset": 3198,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFinancing.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFinancing.swift",
       "kind": "StringLiteral",
       "offset": 993,
       "length": 14,
       "value": "\"service_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFinancing.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeFinancing.swift",
       "kind": "StringLiteral",
       "offset": 1577,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 1821,
       "length": 14,
       "value": "\"country_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 1865,
       "length": 16,
       "value": "\"payment_method\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 1967,
       "length": 12,
       "value": "\"ip_address\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 2006,
       "length": 13,
       "value": "\"verified_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 2077,
       "length": 20,
       "value": "\"device_fingerprint\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 2129,
       "length": 18,
       "value": "\"notification_url\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 2174,
       "length": 13,
       "value": "\"payment_url\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 2789,
       "length": 14,
       "value": "\"reference_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 2830,
       "length": 13,
       "value": "\"business_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 3350,
       "length": 15,
       "value": "\"currency_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 4268,
       "length": 17,
       "value": "\"expiration_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 4310,
       "length": 11,
       "value": "\"option_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 5575,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 5612,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 5650,
       "length": 13,
       "value": "\"name_father\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 5690,
       "length": 13,
       "value": "\"name_mother\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 5728,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 6768,
       "length": 14,
       "value": "\"country_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 6826,
       "length": 11,
       "value": "\"city_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 6901,
       "length": 10,
       "value": "\"zip_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentBnpl.swift",
       "kind": "StringLiteral",
       "offset": 7326,
       "length": 15,
       "value": "\"delivery_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Extensions\/String+Extension.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Extensions\/String+Extension.swift",
       "kind": "Array",
       "offset": 180,
       "length": 58,
       "value": "[\"Collected\", \"Failed\", \"Cancelled\", \"Voided\", \"Rejected\"]"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
       "kind": "StringLiteral",
       "offset": 1135,
       "length": 17,
       "value": "\"discount_amount\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
       "kind": "StringLiteral",
       "offset": 1218,
       "length": 11,
       "value": "\"seller_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
       "kind": "StringLiteral",
       "offset": 1257,
       "length": 14,
       "value": "\"service_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
       "kind": "StringLiteral",
       "offset": 2406,
       "length": 10,
       "value": "\"end_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
       "kind": "StringLiteral",
       "offset": 2461,
       "length": 13,
       "value": "\"monthly_fee\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
       "kind": "StringLiteral",
       "offset": 2554,
       "length": 24,
       "value": "\"scholarship_percentage\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
       "kind": "StringLiteral",
       "offset": 2604,
       "length": 12,
       "value": "\"start_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
       "kind": "StringLiteral",
       "offset": 3741,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
       "kind": "StringLiteral",
       "offset": 3820,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
       "kind": "StringLiteral",
       "offset": 3893,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeEducation.swift",
       "kind": "StringLiteral",
       "offset": 3961,
       "length": 25,
       "value": "\"relationship_with_payer\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Modifiers\/PaymentCheckoutPresenterModifier.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Modifiers\/PaymentCheckoutPresenterModifier.swift",
       "kind": "BooleanLiteral",
       "offset": 231,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Shared\/Modifiers\/PaymentCheckoutPresenterModifier.swift",
+      "kind": "BooleanLiteral",
+      "offset": 419,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
       "kind": "StringLiteral",
       "offset": 1864,
       "length": 14,
       "value": "\"country_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
       "kind": "StringLiteral",
       "offset": 1908,
       "length": 16,
       "value": "\"payment_method\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
       "kind": "StringLiteral",
       "offset": 2059,
       "length": 18,
       "value": "\"notification_url\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
       "kind": "StringLiteral",
       "offset": 2103,
       "length": 12,
       "value": "\"session_id\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
       "kind": "StringLiteral",
       "offset": 2141,
       "length": 12,
       "value": "\"ip_address\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
       "kind": "StringLiteral",
       "offset": 2181,
       "length": 14,
       "value": "\"redirect_url\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
       "kind": "StringLiteral",
       "offset": 2568,
       "length": 15,
       "value": "\"currency_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
       "kind": "StringLiteral",
       "offset": 2946,
       "length": 15,
       "value": "\"currency_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
       "kind": "StringLiteral",
       "offset": 3336,
       "length": 15,
       "value": "\"currency_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
       "kind": "StringLiteral",
       "offset": 3712,
       "length": 15,
       "value": "\"currency_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Payment\/PaymentCardCheckout.swift",
       "kind": "StringLiteral",
       "offset": 4090,
       "length": 15,
       "value": "\"currency_code\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeBus.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeBus.swift",
       "kind": "StringLiteral",
       "offset": 999,
       "length": 16,
       "value": "\"itinerary_type\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeBus.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeBus.swift",
       "kind": "StringLiteral",
       "offset": 1106,
       "length": 12,
       "value": "\"route_type\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeBus.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Launcher\/Model\/Itemtype\/ItemTypeBus.swift",
       "kind": "StringLiteral",
       "offset": 1698,
       "length": 14,
       "value": "\"company_name\""
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/ViewModel\/HandlePaymentFinalizationUseCase.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/ViewModel\/HandlePaymentFinalizationUseCase.swift",
       "kind": "Array",
       "offset": 117,
       "length": 14,
       "value": "[\"Authorized\"]"
     },
     {
-      "filePath": "\/Users\/josias\/Documents\/ProjetosKoin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/ViewModel\/HandlePaymentFinalizationUseCase.swift",
+      "filePath": "\/Users\/victor\/Developer\/GitHub\/Koin\/payments-ios-sdk\/KoinPaymentCheckout\/Sources\/Features\/Checkouts\/WebView\/ViewModel\/HandlePaymentFinalizationUseCase.swift",
       "kind": "BooleanLiteral",
       "offset": 488,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/josias\/Library\/Developer\/Xcode\/DerivedData\/KoinPaymentCheckout-ewnygsmopixrceckxfkvhriaoybj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KoinPaymentCheckout\/IntermediateBuildFilesPath\/KoinPaymentCheckout.build\/Release-iphoneos\/KoinPaymentCheckout.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/victor\/Library\/Developer\/Xcode\/DerivedData\/KoinPaymentCheckout-cgvtyjptwplvueddxzfunnprxnxe\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KoinPaymentCheckout\/IntermediateBuildFilesPath\/KoinPaymentCheckout.build\/Release-iphoneos\/KoinPaymentCheckout.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 767,
       "length": 30,

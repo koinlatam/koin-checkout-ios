@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "KoinPaymentCheckout",
-            url: "https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.12/KoinPaymentCheckout.xcframework.zip",
-            checksum: "36c874e8bf3f0c118e98538c21f6e3469bfb70d5974c4a1b9954ae79f517ad32"
+            url: "https://koinlatam.github.io/koin-checkout-ios/releases/1.0.0-build.13/KoinPaymentCheckout.xcframework.zip",
+            checksum: "e0b75a18ded0419131ba04fea37b09b80c32ea529a545794d7a5d59dc7cda6a4"
         )
     ]
 )

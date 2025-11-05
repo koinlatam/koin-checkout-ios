@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KoinPaymentCheckout
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KoinPaymentCheckout
 import Combine
 import DeveloperToolsSupport
 import Foundation
@@ -690,7 +689,7 @@ public struct PaymentPayPalCheckoutHandle {
   public let cancel: () -> Swift.Void
 }
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class PaymentCheckout {
-  @_Concurrency.MainActor public static func initialize(key: Swift.String, account: Swift.String = "default_account", primaryColorHex: Swift.String = "#008f21", secondaryColorHex: Swift.String = "#004E1D", currencyCode: Swift.String = "BRL", isHomolog: Swift.Bool = false, enableLogs: Swift.Bool = false, pollingTimeout: Foundation.TimeInterval = 360.0, pollingInterval: Foundation.TimeInterval = 3.0, paypalClientID: Swift.String = "default_paypal_client_id", maxRetries: Swift.Int = 0)
+  @_Concurrency.MainActor public static func initialize(key: Swift.String, account: Swift.String = "default_account", primaryColorHex: Swift.String = "#008f21", secondaryColorHex: Swift.String = "#004E1D", currencyCode: Swift.String = "BRL", isHomolog: Swift.Bool = false, enableLogs: Swift.Bool = true, pollingTimeout: Foundation.TimeInterval = 360.0, pollingInterval: Foundation.TimeInterval = 3.0, paypalClientID: Swift.String = "default_paypal_client_id", maxRetries: Swift.Int = 0)
   @_Concurrency.MainActor public static func makeCheckoutView(input: KoinPaymentCheckout.CheckoutInput, completion: @escaping (KoinPaymentCheckout.CheckoutResult?) -> Swift.Void) -> some SwiftUICore.View
   
   @_Concurrency.MainActor public static func presentCheckout(from viewController: UIKit.UIViewController, input: KoinPaymentCheckout.CheckoutInput, completion: @escaping (KoinPaymentCheckout.CheckoutResult?) -> Swift.Void)
